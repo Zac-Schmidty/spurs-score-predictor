@@ -6,7 +6,7 @@ import sqlite3
 # Function to scrape the website
 def scrape_footystats(url):
     url = url  
-    #url1 = 'https://footystats.org/england/premier-league'
+    url1 = 'https://footystats.org/england/premier-league'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
