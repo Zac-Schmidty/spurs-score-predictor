@@ -21,7 +21,7 @@ def scrape_footystats(url):
 
 # Function to parse and extract the required data
 def parse_data(soup):
-    # Example: Extracting data from a specific table (modify according to the site's structure)
+    #Example: Extracting data from a specific table (modify according to the site's structure)
     stats = []
     basic_table = soup.find('table', {'class': 'mt1e comparison-table-table w100'})  # Replace 'stats-table' with the actual class of the table
     rows = basic_table.find_all('tr')

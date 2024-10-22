@@ -1,3 +1,4 @@
+
 Step 1: Scrape the data from footystats.org
 Step 2: Parse the data
 Step 3: Save the data to a database
