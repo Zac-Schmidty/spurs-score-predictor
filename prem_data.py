@@ -19,7 +19,7 @@ def scrape_footystats(url):
         print("Failed to retrieve the data")
         return None
 
-# Function to parse and extract the required data
+#Function to parse and extract the required data
 def parse_data(soup):
     #Example: Extracting data from a specific table (modify according to the site's structure)
     stats = []

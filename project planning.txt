@@ -1,9 +1,6 @@
+Stats to scrape in order to create our predictor model:
+Fixtures, Form Table, Goals Scored, Goals Conceded, xG (Expected Goals), *then look at past results*
 
-Step 1: Scrape the data from footystats.org
-Step 2: Parse the data
-Step 3: Save the data to a database
-Step 4: Analyze the data
-Step 5: Visualize the data
-Step 6: Create an ML predictor model
-Step 7: Make predictions
-Step 8: Validate the model
+
+create a spurs stats table and then an opposition stats table... find out who the oppo for the week is and update the table with those stats.
+
